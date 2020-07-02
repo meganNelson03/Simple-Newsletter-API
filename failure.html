@@ -3,8 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Subscription Failed</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/success.css">
   </head>
   <body>
+
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1 class="display-4">Uh oh...</h1>
+        <p class="lead">Something went wrong, could you try signing up again?</p>
+        <hr class="my-4">
+
+        <form action="/failure" method="get">
+          <button class="btn btn-lg btn-warning" type="submit" name="button">Try Again</button>
+        </form>
+
+
+      </div>
+    </div>
+
+
 
   </body>
 </html>
